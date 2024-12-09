@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.container {
+    text-align: center;
+}
+
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: blue; /* Default color */
+    margin: 20px;
+    border: 2px;
+    border-radius: 10px;
+}
+
+#change-color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+#change-color-btn:hover {
+    background-color: #27ae60;
+}
